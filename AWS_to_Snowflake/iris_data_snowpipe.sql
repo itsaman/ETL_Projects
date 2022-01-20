@@ -19,7 +19,7 @@ create or replace file format iris_file
   
 create or replace stage etl_db.PUBLIC.iris_stage
 url = "s3://destinationfile2001"
-credentials=(aws_key_id='AKIAQKNRPXXTBSVKSXA4' aws_secret_key = 'ZVyb/4n1iDTNVDnrLAZpt6kIHD1CqSFCveOXyvTx')
+credentials=(aws_key_id='xxx' aws_secret_key = 'XXX')
 file_format = iris_file
 
 list@iris_stage
